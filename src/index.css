@@ -1,0 +1,53 @@
+body {
+  background: #f8f6fc;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.layout {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #b497d6, #9f7aea);
+  color: white;
+  padding: 30px 20px;
+}
+
+.sidebar h4 {
+  font-weight: bold;
+}
+
+.sidebar button {
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+/* Modern Card */
+.card-modern {
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(159, 122, 234, 0.15);
+}
+
+/* Lavender Button */
+.btn-lavender {
+  background: linear-gradient(135deg, #c084fc, #a78bfa);
+  border: none;
+  color: white;
+  border-radius: 12px;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.btn-lavender:hover {
+  opacity: 0.9;
+}
